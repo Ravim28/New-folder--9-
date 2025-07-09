@@ -9,6 +9,7 @@ const express = require('express');
 
   app.get('/gett' ,(req, res) => {
     res.send("hello world again");
+  })
   app.get('/send' ,(req, res) => {
     res.send("hello world harda");
  })
