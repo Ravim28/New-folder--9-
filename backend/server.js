@@ -6,6 +6,9 @@ const express = require('express');
     res.send("hello world");
  })
  
+  app.get('/send' ,(req, res) => {
+    res.send("hello world harda");
+ })
  app.listen(3000 ,()=>{
     console.log("Server is running on port 3000");
  })
